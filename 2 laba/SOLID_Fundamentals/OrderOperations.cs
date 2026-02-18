@@ -45,7 +45,7 @@
         public void ShipOrder(Order order) { Console.WriteLine("Order shipped"); }
         public void GenerateInvoice(Order order) { Console.WriteLine("Invoice generated"); }
         public void SendNotification(Order order) { Console.WriteLine("Notification sent"); }
-        public void GenerateReport(DateTime from, DateTime to) { Console.WriteLine("Report generated"); } 
+        public void GenerateReport(DateTime from, DateTime to) { Console.WriteLine("Report generated"); }
         public void ExportToExcel(string filePath) { Console.WriteLine("Exported to Excel"); }
         public void BackupDatabase() { Console.WriteLine("Database backed up"); }
         public void RestoreDatabase() { Console.WriteLine("Database restored"); }

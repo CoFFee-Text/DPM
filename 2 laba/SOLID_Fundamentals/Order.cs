@@ -5,7 +5,7 @@
         public int Id { get; private set; }
         public decimal TotalAmount { get; private set; }
         public string PaymentMethod { get; private set; }
-        public IReadOnlyList <string> Items { get; private set; }
+        public IReadOnlyList<string> Items { get; private set; }
         public string CustomerEmail { get; private set; }
         public string CustomerPhone { get; private set; }
 

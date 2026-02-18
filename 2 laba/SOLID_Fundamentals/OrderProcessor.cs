@@ -8,23 +8,23 @@ namespace SOLID_Fundamentals
     using System.Collections.Generic;
     using System.Linq;
 
-    public interface IPaymentProcessor 
-    { 
-        void ProcessPayment(string paymentMethod, decimal amount); 
-    }
-    public interface IInventoryService 
+    public interface IPaymentProcessor
     {
-        void UpdateInventory(IReadOnlyList<string> items); 
+        void ProcessPayment(string paymentMethod, decimal amount);
     }
-    public interface INotificationService 
+    public interface IInventoryService
+    {
+        void UpdateInventory(IReadOnlyList<string> items);
+    }
+    public interface INotificationService
     {
         void SendEmail(string to, string message);
     }
-    public interface ILogger 
+    public interface ILogger
     {
-        void LogToDatabase(string message); 
+        void LogToDatabase(string message);
     }
-    public interface IReceiptGenerator 
+    public interface IReceiptGenerator
     {
         void GenerateReceipt(Order order);
     }

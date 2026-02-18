@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba_2", "laba_2.csproj", "{59C5EB13-037A-4A14-9650-44B5BF1DD48B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba_2", "laba_2.csproj", "{0504BE80-84F3-4A01-A175-406FD46A325E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Fundamentals", "..\SOLID_Fundamentals\SOLID_Fundamentals.csproj", "{7CF64CFC-45FE-7035-CB18-F109D3DD1547}"
 EndProject
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{59C5EB13-037A-4A14-9650-44B5BF1DD48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59C5EB13-037A-4A14-9650-44B5BF1DD48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59C5EB13-037A-4A14-9650-44B5BF1DD48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59C5EB13-037A-4A14-9650-44B5BF1DD48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0504BE80-84F3-4A01-A175-406FD46A325E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0504BE80-84F3-4A01-A175-406FD46A325E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0504BE80-84F3-4A01-A175-406FD46A325E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0504BE80-84F3-4A01-A175-406FD46A325E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CF64CFC-45FE-7035-CB18-F109D3DD1547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CF64CFC-45FE-7035-CB18-F109D3DD1547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF64CFC-45FE-7035-CB18-F109D3DD1547}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F79BA3F5-E49C-483D-8423-2342640EB0DF}
+		SolutionGuid = {08530513-78AC-4831-81F5-54612604CE85}
 	EndGlobalSection
 EndGlobal
